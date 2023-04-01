@@ -3,8 +3,8 @@ Copies source code recursively.
 Only these extensions: 'py', 'js', 'html', 'css', 'java' But you can modify it easily in the python code.
 
 # Args: 
---path "path/to/file" | current file if empty
---chunk 10000 copies #chunk number of characters at once. | everything at one if empty
+  --path "path/to/file" | current file if empty
+  --chunk 10000 copies #chunk number of characters at once. | everything at one if empty
 
 # Install
 1. install python
